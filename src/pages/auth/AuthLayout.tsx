@@ -2,7 +2,7 @@ import React, { ReactNode, useEffect } from 'react'
 
 //images
 import authImg from '@/assets/images/auth-img.jpg'
-import logo from '@/assets/images/Logo 2.png'
+import logo from '@/assets/images/Logo.png'
 import logoDark from '@/assets/images/logo-dark.png'
 
 import { Card, Col, Container, Image, Row } from 'react-bootstrap'
@@ -125,7 +125,7 @@ const AuthLayout = ({
 			</div>
 			<footer className="footer footer-alt fw-medium">
 				<span className="text-dark">
-					{new Date().getFullYear()} © Velonic - Theme by Techzaa
+					{new Date().getFullYear()} © Arise - Theme by Techzaa
 				</span>
 			</footer>
 		</div>
