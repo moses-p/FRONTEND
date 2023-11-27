@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import React from 'react'
 import { Route, RouteProps } from 'react-router-dom'
 
@@ -100,6 +101,9 @@ const Error404 = React.lazy(() => import('../pages/error/Error404'))
 const Error404Alt = React.lazy(() => import('../pages/error/Error404Alt'))
 const Error500 = React.lazy(() => import('../pages/error/Error500'))
 
+// listings page 
+const  Listings = React.lazy(() => import('../pages/Listings'))
+
 export interface RoutesProps {
 	path: RouteProps['path']
 	name?: string
@@ -133,6 +137,22 @@ const dashboardRoutes: RoutesProps = {
 		},
 	],
 }
+
+const ListingRoutes: RoutesProps = {
+	path: '/admin',
+	name: 'Dashboards',
+	icon: 'home',
+	header: 'Navigation',
+	children: [
+		{
+			path: '/listings',
+			name: 'Root',
+			element: <Listings />,
+			route: PrivateRoute,
+		},
+	],
+}
+
 
 // pages
 const customPagesRoutes = {
@@ -603,7 +623,7 @@ const flattenRoutes = (routes: RoutesProps[]) => {
 }
 
 // All routes
-const authProtectedRoutes = [dashboardRoutes, customPagesRoutes, uiRoutes]
+const authProtectedRoutes = [dashboardRoutes, ListingRoutes, customPagesRoutes, uiRoutes]
 const publicRoutes = [...authRoutes, ...otherPublicRoutes]
 
 const authProtectedFlattenRoutes = flattenRoutes([...authProtectedRoutes])

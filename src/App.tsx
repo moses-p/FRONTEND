@@ -14,7 +14,10 @@ function App() {
 				<AllRoutes />
 			</AuthProvider>
 		</ThemeProvider>
+		
 	)
 }
 
-export default App
+
+
+export default App;

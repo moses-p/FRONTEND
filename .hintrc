@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "development"
+  ],
+  "rules": {
+    // Add or override specific rules here
+    "no-unused-vars": "off",  // for example, turn off the no-unused-vars rule
+    "@typescript-eslint/no-unused-vars": "error"  // enable TypeScript version of the rule
+  }
+}
