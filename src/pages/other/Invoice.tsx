@@ -26,7 +26,7 @@ const Invoice = () => {
 								<div className="col-sm-6">
 									<div className="float-end mt-3">
 										<p>
-											<b>Hello, Thomson</b>
+											<b>Hello, Rackara</b>
 										</p>
 										<p className="text-muted fs-13">
 											Please find below a cost-breakdown for the recent work
@@ -57,11 +57,11 @@ const Invoice = () => {
 								<div className="col-6">
 									<h6 className="fs-14">Billing Address</h6>
 									<address>
-										Lynne K. Higby
+										Wandegeya. Higby
 										<br />
 										795 Folsom Ave, Suite 600
 										<br />
-										San Francisco, CA 94107
+										Katanga, CA 94107
 										<br />
 										<abbr title="Phone">P:</abbr> (123) 456-7890
 									</address>
@@ -69,11 +69,11 @@ const Invoice = () => {
 								<div className="col-6">
 									<h6 className="fs-14">Shipping Address</h6>
 									<address>
-										Thomson
+										Rackara
 										<br />
-										795 Folsom Ave, Suite 600
+										Wandegeya, Suite 600
 										<br />
-										San Francisco, CA 94107
+										Katanga, CA 94107
 										<br />
 										<abbr title="Phone">P:</abbr> (123) 456-7890
 									</address>

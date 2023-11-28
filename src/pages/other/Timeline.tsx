@@ -43,13 +43,13 @@ const Timeline = () => {
 			{
 				date: '14 hours ago',
 				time: '08:25 am',
-				text: 'Outdoor visit at California State Route 85 with John Boltana & Harry Piterson regarding to setup a new show room.',
+				text: 'Outdoor visit at  State House Route 85 with Kaguta and Museven regarding to setup a new show room.',
 				variant: 'purple',
 			},
 			{
 				date: '19 hours ago',
 				time: '08:25 am',
-				text: 'Jonatha Smith added new milestone crishtianLorem ipsum dolor sit amet consiquest dio',
+				text: 'Moses Haruna added new milestone crishtianLorem ipsum dolor sit amet consiquest dio',
 			},
 		],
 		Yesterday: [
@@ -68,7 +68,7 @@ const Timeline = () => {
 			{
 				date: '07 January 2018',
 				time: '08:25 am',
-				text: 'Jonatha Smith added new milestone crishtianLorem ipsum dolor sit amet consiquest dio',
+				text: 'Aijuka Carlos added new milestone crishtianLorem ipsum dolor sit amet consiquest dio',
 				variant: 'success',
 			},
 		],
@@ -76,12 +76,12 @@ const Timeline = () => {
 			{
 				date: '31 December 2015',
 				time: '08:25 am',
-				text: 'Download the new updates of Velonic admin dashboard',
+				text: 'Download the new updates of Arise Genius admin dashboard',
 			},
 			{
 				date: '16 Decembar 2015',
 				time: '08:25 am',
-				text: 'Jonatha Smith added new milestone prankLorem ipsum dolor sit amet consiquest dio',
+				text: 'Rackara Ivan added new milestone prankLorem ipsum dolor sit amet consiquest dio',
 				variant: 'danger',
 			},
 		],

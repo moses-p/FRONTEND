@@ -629,7 +629,7 @@ const ProgressBarWizard = () => {
 const WizardWithFormValidation = () => {
 	const [validated, setValidated] = useState(false)
 
-	const handleSubmit = (event: any, next: Function) => {
+	const handleSubmit = (event: any, next: Function ) => {
 		const form = event.currentTarget
 		if (form.checkValidity() === false) {
 			event.preventDefault()

@@ -14,23 +14,23 @@ interface ContactList {
 
 export const contactList: ContactList[] = [
 	{
-		name: 'Jonathan Smith',
+		name: 'Lewin Hilary',
 		avatar: avatar2,
 	},
 	{
-		name: 'James Haley',
+		name: 'Aijuka Carlos',
 		avatar: avatar6,
 	},
 	{
-		name: 'Fred Otero',
+		name: 'Moses Haruna',
 		avatar: avatar7,
 	},
 	{
-		name: 'Danny Berry',
+		name: 'Rackara Ivan',
 		avatar: avatar9,
 	},
 	{
-		name: 'Jerry Johnson',
+		name: 'Nyanzi Fahad',
 		avatar: avatar3,
 	},
 	{

@@ -14,8 +14,8 @@ const Pricing = () => {
 							Our <b>Plans</b>
 						</h3>
 						<p className="text-muted mb-5">
-							We have plans and prices that fit your business perfectly. Make
-							your <br /> client site a success with our products.
+							We have rooms and prices that fit your standards. Make
+							your <br /> Accademic life a success with our Hostels.
 						</p>
 					</div>
 					<Row className="justify-content-center my-3">
@@ -23,7 +23,7 @@ const Pricing = () => {
 							<Card className="rounded-top-0 border-3 border-end-0 border-start-0 border-bottom-0 border-top border-success">
 								<Card.Body className="border-bottom p-3">
 									<span className="badge bg-success-subtle rounded-1 text-success text-uppercase fs-12 fw-semibold px-2 py-1 mb-3">
-										Professional Pack
+										VIP Single rooms
 									</span>
 									<h2 className="mb-4 text-dark">
 										$19 <span className="text-uppercase fs-14 ">/ Month</span>
@@ -31,11 +31,11 @@ const Pricing = () => {
 									<ul className="list-unstyled d-grid gap-2">
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-success me-2" />
-											10 GB Storage
+											Self Contained
 										</li>
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-success me-2" />
-											500 GB Bandwidth
+											With AC
 										</li>
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-success me-2" />
@@ -62,7 +62,7 @@ const Pricing = () => {
 							<Card className="rounded-top-0 border-3 border-end-0 border-start-0 border-bottom-0 border-top border-primary">
 								<Card.Body className="border-bottom p-3">
 									<span className="badge bg-primary-subtle rounded-1 text-primary text-uppercase fs-12 fw-semibold px-2 py-1 mb-3">
-										Business Pack
+										Double Rooms
 									</span>
 									<h2 className="mb-4 text-dark">
 										$29 <span className="text-uppercase fs-14 ">/ Month</span>
@@ -70,11 +70,11 @@ const Pricing = () => {
 									<ul className="list-unstyled d-grid gap-2">
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-primary me-2" />
-											50 GB Storage
+											Self Contained
 										</li>
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-primary me-2" />
-											900 GB Bandwidth
+											Master Bedroom 
 										</li>
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-primary me-2" />2
@@ -102,7 +102,7 @@ const Pricing = () => {
 										</li>
 									</ul>
 									<button className="btn btn-primary w-100">
-										Current Plan
+										Available Hostels
 									</button>
 								</Card.Body>
 							</Card>
@@ -111,7 +111,7 @@ const Pricing = () => {
 							<Card className="rounded-top-0 border-3 border-end-0 border-start-0 border-bottom-0 border-top border-success">
 								<Card.Body className="border-bottom p-3">
 									<span className="badge bg-success-subtle rounded-1 text-success text-uppercase fs-12 fw-semibold px-2 py-1 mb-3">
-										Enterprise Pack
+										First Class Rooms
 									</span>
 									<h2 className="mb-4 text-dark">
 										$39 <span className="text-uppercase fs-14 ">/ Month</span>
@@ -119,11 +119,11 @@ const Pricing = () => {
 									<ul className="list-unstyled d-grid gap-2">
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-success me-2" />
-											100 GB Storege
+											BathTabs
 										</li>
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-success me-2" />
-											Unlimited Bandwidth
+											Warm and cold water
 										</li>
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-success me-2" />
@@ -131,7 +131,7 @@ const Pricing = () => {
 										</li>
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-success me-2" />
-											Unlimited User
+											Unlimited Usage
 										</li>
 										<li className="fs-15">
 											<i className="ri-shield-check-fill text-success me-2" />

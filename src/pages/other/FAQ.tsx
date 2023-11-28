@@ -38,7 +38,7 @@ const FAQ = () => {
 											<div>
 												<div className="faq-question-q-box">Q.</div>
 												<h4 className="faq-question" data-wow-delay=".1s">
-													What does LOREM mean?
+													What does Arise Genius  mean?
 												</h4>
 												<p className="faq-answer mb-4">
 													Lorem ipsum dolor sit amet, consectetur adipisici
@@ -53,13 +53,13 @@ const FAQ = () => {
 											<div>
 												<div className="faq-question-q-box">Q.</div>
 												<h4 className="faq-question">
-													Where can I subscribe to your newsletter?
+													Where can I Book for a Hostel?
 												</h4>
 												<p className="faq-answer mb-4">
-													We often send out our newsletter with news and great
-													offers. We will never disclose your data to third
-													parties and you can unsubscribe from the newsletter at
-													any time. Subscribe here to our newsletter.
+													You can book a hostel by clicking on the book now
+													button on the hostel page. You will be redirected to
+													the hostel booking page where you can book the hostel
+													of your choice.
 												</p>
 											</div>
 										</div>
@@ -67,12 +67,14 @@ const FAQ = () => {
 											<div>
 												<div className="faq-question-q-box">Q.</div>
 												<h4 className="faq-question">
-													Where can I edit my billing and shipping address?
+													Where can I edit my billing and Current address?
+													Because I dont trust any one in Uganda because "Buri-omu Akora byayagara"
 												</h4>
 												<p className="faq-answer mb-4">
-													If you created a new account after or while ordering
-													you can edit both addresses (for billing and shipping)
-													in your customer account.
+													You can edit your billing and current address by
+													clicking on the edit button on the hostel page. You
+													will be redirected to the hostel booking page where
+													you can book the hostel of your choice.
 												</p>
 											</div>
 										</div>
@@ -80,13 +82,14 @@ const FAQ = () => {
 											<div>
 												<div className="faq-question-q-box">Q.</div>
 												<h4 className="faq-question" data-wow-delay=".1s">
-													Can I order a free sample copy of a magazine?
+													Can I reserve a room for two students?
 												</h4>
 												<p className="faq-answer mb-4">
-													Unfortunately, we’re unable to offer free samples. As
-													a retailer, we buy all magazines from their publishers
-													at the regular trade price. However, you could contact
-													the publisher directly.
+													Yes, you can reserve a room for two students. You can
+													book a hostel by clicking on the book now button on
+													the hostel page. You will be redirected to the hostel
+													booking page where you can book the hostel of your
+													choice.
 												</p>
 											</div>
 										</div>
@@ -94,15 +97,14 @@ const FAQ = () => {
 											<div>
 												<div className="faq-question-q-box">Q.</div>
 												<h4 className="faq-question">
-													Are unsold magazines sent back to the publisher?
+													Are all services for the Hostel counted on the semester fee?
 												</h4>
 												<p className="faq-answer mb-4">
-													We usually sell all copies of the magazines offered in
-													our shop. Some publishers and distributors offer the
-													retailer the option of returning any unsold magazines.
-													However, because our range includes magazines from
-													countries such as Australia, the USA and the United
-													Kingdom.
+													Yes, all services for the Hostel are counted on the
+													semester fee. You can book a hostel by clicking on
+													the book now button on the hostel page. You will be
+													redirected to the hostel booking page where you can
+													book the hostel of your choice.
 												</p>
 											</div>
 										</div>

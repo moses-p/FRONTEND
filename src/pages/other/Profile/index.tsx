@@ -4,7 +4,7 @@ import { profileActivity } from './data'
 import React from 'react'
 
 // images
-import bgProfile from '@/assets/images/bg-profile.jpg'
+import bgProfile from '@/assets/images/Logo .png'
 import avatar1 from '@/assets/images/users/avatar-1.jpg'
 
 // components
@@ -109,7 +109,7 @@ const ProfilePages = () => {
 											<Tab.Pane eventKey="About" id="aboutme" tabIndex={0}>
 												<div className="profile-desk">
 													<h5 className="text-uppercase fs-17 text-dark">
-														Johnathan Deo
+														Fahad Nyanzi
 													</h5>
 													<div className="designation mb-4">
 														PRODUCT DESIGNER (UX / UI / Visual Interaction)
@@ -138,7 +138,7 @@ const ProfilePages = () => {
 																<th scope="row">Email</th>
 																<td>
 																	<Link to="" className="ng-binding">
-																		jonathandeo@example.com
+																		Moses Haruna
 																	</Link>
 																</td>
 															</tr>
@@ -150,7 +150,7 @@ const ProfilePages = () => {
 																<th scope="row">Skype</th>
 																<td>
 																	<Link to="" className="ng-binding">
-																		jonathandeo123
+																		Rackara Ivan
 																	</Link>
 																</td>
 															</tr>
@@ -175,7 +175,7 @@ const ProfilePages = () => {
 																		{activity.subName && (
 																			<React.Fragment>
 																				<Link to="#" className="text-success">
-																					John Doe
+																					Aijuka Carlos
 																				</Link>
 																				.
 																			</React.Fragment>
@@ -290,7 +290,7 @@ const ProfilePages = () => {
 																<tbody>
 																	<tr>
 																		<td>1</td>
-																		<td>Velonic Admin</td>
+																		<td>Arise Admin</td>
 																		<td>01/01/2015</td>
 																		<td>07/05/2015</td>
 																		<td>
@@ -302,7 +302,7 @@ const ProfilePages = () => {
 																	</tr>
 																	<tr>
 																		<td>2</td>
-																		<td>Velonic Frontend</td>
+																		<td>Arise Frontend</td>
 																		<td>01/01/2015</td>
 																		<td>07/05/2015</td>
 																		<td>
@@ -314,7 +314,7 @@ const ProfilePages = () => {
 																	</tr>
 																	<tr>
 																		<td>3</td>
-																		<td>Velonic Admin</td>
+																		<td>Arise Admin</td>
 																		<td>01/01/2015</td>
 																		<td>07/05/2015</td>
 																		<td>
@@ -326,7 +326,7 @@ const ProfilePages = () => {
 																	</tr>
 																	<tr>
 																		<td>4</td>
-																		<td>Velonic Frontend</td>
+																		<td>Arise Frontend</td>
 																		<td>01/01/2015</td>
 																		<td>07/05/2015</td>
 																		<td>
@@ -338,7 +338,7 @@ const ProfilePages = () => {
 																	</tr>
 																	<tr>
 																		<td>5</td>
-																		<td>Velonic Admin</td>
+																		<td>Arise Admin</td>
 																		<td>01/01/2015</td>
 																		<td>07/05/2015</td>
 																		<td>
