@@ -199,7 +199,7 @@ const AppMenu = ({ menuItems }: AppMenuProps) => {
 				}, 200)
 
 				// scrollTo (Left Side Bar Active Menu)
-				local function easeInOutQuad(t: any, b: any, c: any, d: any) {
+				function easeInOutQuad(t: any, b: any, c: any, d: any) {
 					t /= d / 2
 					if (t < 1) return (c / 2) * t * t + b
 					t--
