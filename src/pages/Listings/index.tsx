@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+type Room = {
+  standard: string;
+  price: number;
+};
+
 type Hostel = {
   _id: string;
   name: string;
   description: string;
-  // Add more properties as needed
+  rooms: Room[];
 };
 
 const Listings: React.FC = () => {
@@ -45,22 +50,24 @@ const Listings: React.FC = () => {
               </div>
               {showDropdown && selectedHostel && selectedHostel._id === hostel._id && (
                 <div>
-                  <h4>Dropdown for {hostel.name}</h4>
-                  {/* Add your dropdown content here */}
+                  <h2>Selected Hostel</h2>
+                  <p>Name: {selectedHostel.name}</p>
+                  <p>Description: {selectedHostel.description}</p>
+                  <h3>Room Information</h3>
+                  <ul>
+                    {selectedHostel.rooms.map((room, index) => (
+                      <li key={index}>
+                        <p>Room {index + 1}</p>
+                        <p>Standard: {room.standard}</p>
+                        <p>Price: {room.price}</p>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               )}
             </li>
           ))}
       </ul>
-
-      {selectedHostel && (
-        <div>
-          <h2>Selected Hostel</h2>
-          <p>Name: {selectedHostel.name}</p>
-          <p>Description: {selectedHostel.description}</p>
-          {/* Add more details as needed */}
-        </div>
-      )}
     </div>
   );
 };
