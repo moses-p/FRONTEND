@@ -54,35 +54,35 @@ export interface ProfileOption {
 const Messages: MessageItem[] = [
 	{
 		id: 1,
-		name: 'Cristina Pride',
+		name: 'Aijuka Carlos',
 		subText: 'Hi, How are you? What about our next meeting',
 		avatar: avatar1,
 		createdAt: subtractHours(new Date(), 1440),
 	},
 	{
 		id: 2,
-		name: 'Sam Garret',
+		name: 'Moses Haruna',
 		subText: 'Yeah everything is fine',
 		avatar: avatar2,
 		createdAt: subtractHours(new Date(), 2880),
 	},
 	{
 		id: 3,
-		name: 'Karen Robinson',
+		name: 'Rackara Ivan',
 		subText: "Wow that's great",
 		avatar: avatar3,
 		createdAt: subtractHours(new Date(), 2880),
 	},
 	{
 		id: 4,
-		name: 'Sherry Marshall',
+		name: 'Fahad Nyanzi',
 		subText: 'Hi, How are you? What about our next meeting',
 		avatar: avatar4,
 		createdAt: subtractHours(new Date(), 4320),
 	},
 	{
 		id: 5,
-		name: 'Shawn Millard',
+		name: 'Lewin Hilary',
 		subText: 'Yeah everything is fine',
 		avatar: avatar5,
 		createdAt: subtractHours(new Date(), 5760),
@@ -95,7 +95,7 @@ const Messages: MessageItem[] = [
 const Notifications: NotificationItem[] = [
 	{
 		id: 1,
-		title: 'Caleb Flakelar commented on Admin',
+		title: 'Moses Haruna commented on Admin',
 		icon: 'mdi mdi-comment-account-outline',
 		variant: 'primary',
 		createdAt: subtractHours(new Date(), 1),
@@ -109,14 +109,14 @@ const Notifications: NotificationItem[] = [
 	},
 	{
 		id: 3,
-		title: 'Carlos Crouch liked',
+		title: 'Carlos Aijuka liked',
 		icon: 'mdi mdi-heart',
 		variant: 'danger',
 		createdAt: subtractHours(new Date(), 4320),
 	},
 	{
 		id: 4,
-		title: 'Caleb Flakelar commented on Admi',
+		title: 'Fahad Nyanzi commented on Admi',
 		icon: 'mdi mdi-comment-account-outline',
 		variant: 'pink',
 		createdAt: subtractHours(new Date(), 5760),
@@ -130,7 +130,7 @@ const Notifications: NotificationItem[] = [
 	},
 	{
 		id: 6,
-		title: 'Carlos Crouch liked Admin',
+		title: 'Carlos Aijuka liked Admin',
 		icon: 'mdi mdi-heart',
 		variant: 'success',
 		createdAt: subtractHours(new Date(), 10960),

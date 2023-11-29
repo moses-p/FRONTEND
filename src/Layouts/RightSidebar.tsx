@@ -58,7 +58,7 @@ const RightSidebar = () => {
 							role="button"
 							className="btn btn-primary w-100"
 						>
-							Buy Now
+							Book Now
 						</Link>
 					</div>
 				</Row>

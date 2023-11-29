@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, FormEvent } from 'react';
 import axios from 'axios';
 
 type Room = {
@@ -16,6 +16,12 @@ type Hostel = {
 const Listings: React.FC = () => {
   const [hostels, setHostels] = useState<Hostel[] | undefined>();
   const [selectedHostel, setSelectedHostel] = useState<Hostel | undefined>();
+  const [newHostel, setNewHostel] = useState<Hostel>({
+    _id: '',
+    name: '',
+    description: '',
+    rooms: [],
+  });
 
   useEffect(() => {
     const fetchHostels = async () => {
@@ -32,6 +38,30 @@ const Listings: React.FC = () => {
 
   const handleHostelSelect = (hostel: Hostel) => {
     setSelectedHostel(hostel);
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setNewHostel((prevHostel) => ({
+      ...prevHostel,
+      [name]: value,
+    }));
+  };
+
+  const handleAddHostel = async (e: FormEvent) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post('http://localhost:8800/api/hostels', newHostel);
+      setHostels((prevHostels) => [...(prevHostels || []), response.data]);
+      setNewHostel({
+        _id: '',
+        name: '',
+        description: '',
+        rooms: [],
+      });
+    } catch (error) {
+      console.error('Error adding hostel:', error);
+    }
   };
 
   return (
@@ -64,7 +94,20 @@ const Listings: React.FC = () => {
             ))}
           </ul>
         </div>
-      )},
+      )}
+
+      <div>
+        <h2>Add New Hostel</h2>
+        <form onSubmit={handleAddHostel}>
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" name="name" value={newHostel.name} onChange={handleInputChange} required />
+
+          <label htmlFor="description">Description:</label>
+          <textarea id="description" name="description" value={newHostel.description} onChange={handleInputChange} required />
+
+          <button type="submit">Add Hostel</button>
+        </form>
+      </div>
     </div>
   );
 };

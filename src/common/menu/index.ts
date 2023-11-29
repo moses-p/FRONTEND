@@ -38,7 +38,7 @@ const findMenuItem = (
 			if (menuItems[i].key === menuItemKey) {
 				return menuItems[i]
 			}
-			let found = findMenuItem(menuItems[i].children, menuItemKey)
+			const found = findMenuItem(menuItems[i].children, menuItemKey)
 			if (found) return found
 		}
 	}

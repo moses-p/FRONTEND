@@ -20,11 +20,11 @@ const mock = new MockAdapter(axios, { onNoMatch: 'passthrough' })
 const users: User[] = [
 	{
 		id: 1,
-		email: 'velonic@techzaa.com',
-		username: 'Velonic',
-		password: 'Velonic',
-		firstName: 'Velonic',
-		lastName: 'Techzaa',
+		email: 'mosesharuna407@gmail.com',
+		username: 'Arise Booking',
+		password: 'Arise',
+		firstName: 'Arise',
+		lastName: 'Genius',
 		role: 'Admin',
 		token: TOKEN,
 	},
@@ -32,7 +32,7 @@ const users: User[] = [
 
 export default function configureFakeBackend() {
 	mock.onPost('/login').reply(function (config) {
-		return new Promise(function (resolve, reject) {
+		return new Promise(function (resolve) {
 			setTimeout(function () {
 				// get parameters from post request
 				const params = JSON.parse(config.data)
@@ -55,7 +55,7 @@ export default function configureFakeBackend() {
 	})
 
 	mock.onPost('/register').reply(function (config) {
-		return new Promise(function (resolve, reject) {
+		return new Promise(function (resolve) {
 			setTimeout(function () {
 				// get parameters from post request
 				const params = JSON.parse(config.data)
@@ -80,7 +80,7 @@ export default function configureFakeBackend() {
 	})
 
 	mock.onPost('/forget-password').reply(function (config) {
-		return new Promise(function (resolve, reject) {
+		return new Promise(function (resolve) {
 			setTimeout(function () {
 				// get parameters from post request
 				const params = JSON.parse(config.data)
