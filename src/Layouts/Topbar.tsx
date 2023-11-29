@@ -293,7 +293,7 @@ const Topbar = ({ toggleMenu, navOpen }: TopbarProps) => {
 										className="form-control"
 										placeholder="Search..."
 									/>
-									<span className="ri-search-line search-icon text-muted" />
+									<span className="ri-search-line search-icon text-unmute" />
 								</div>
 							</form>
 						</div>
@@ -329,7 +329,7 @@ const Topbar = ({ toggleMenu, navOpen }: TopbarProps) => {
 							<ProfileDropdown
 								menuItems={profileMenus}
 								userImage={profilePic}
-								username="Thomson"
+								username="Moses"
 							/>
 						</li>
 					</ul>

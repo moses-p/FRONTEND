@@ -4,7 +4,7 @@ import { profileActivity } from './data'
 import React from 'react'
 
 // images
-import bgProfile from '@/assets/images/Logo .png'
+import bgProfile from '@/assets/images/Logo.png'
 import avatar1 from '@/assets/images/users/avatar-1.jpg'
 
 // components
@@ -298,7 +298,7 @@ const ProfilePages = () => {
 																				Work in Progress
 																			</span>
 																		</td>
-																		<td>Techzaa</td>
+																		<td>Genius</td>
 																	</tr>
 																	<tr>
 																		<td>2</td>
@@ -310,7 +310,7 @@ const ProfilePages = () => {
 																				Pending
 																			</span>
 																		</td>
-																		<td>Techzaa</td>
+																		<td>Genius</td>
 																	</tr>
 																	<tr>
 																		<td>3</td>
@@ -322,7 +322,7 @@ const ProfilePages = () => {
 																				Done
 																			</span>
 																		</td>
-																		<td>Techzaa</td>
+																		<td>Genius</td>
 																	</tr>
 																	<tr>
 																		<td>4</td>
@@ -334,7 +334,7 @@ const ProfilePages = () => {
 																				Work in Progress
 																			</span>
 																		</td>
-																		<td>Techzaa</td>
+																		<td>Genius</td>
 																	</tr>
 																	<tr>
 																		<td>5</td>
@@ -346,7 +346,7 @@ const ProfilePages = () => {
 																				Coming soon
 																			</span>
 																		</td>
-																		<td>Techzaa</td>
+																		<td>Genius</td>
 																	</tr>
 																</tbody>
 															</table>
