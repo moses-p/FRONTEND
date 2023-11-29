@@ -35,7 +35,7 @@ const ContactLists = ({ avatar, name }: ContactListData) => {
 							<Link className="me-3" to="#">
 								<Image className="avatar-md rounded-circle bx-s" src={avatar} />
 							</Link>
-							<div className="info">
+							<div className="info">,
 								<h5 className="fs-18 my-1">{name}</h5>
 								<p className="text-muted fs-15">Graphics Designer</p>
 							</div>
@@ -159,11 +159,11 @@ const ContactList = () => {
 									placeholder="Search"
 								/>
 								<span className="input-group-append">
-									<button
-										type="button"
-										className="btn btn-primary rounded-start-0"
-									>
+
+									<button type="button" className="btn btn-primary rounded-start-0">
+														
 										<i className="ri-search-line fs-16"></i>
+
 									</button>
 								</span>
 							</div>
