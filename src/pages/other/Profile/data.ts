@@ -15,36 +15,36 @@ interface ProfileActivity {
 export const profileActivity: ProfileActivity[] = [
 	{
 		time: '5 minutes ago',
-		name: 'John Doe',
+		name: 'Moses Haruna',
 		title: 'Uploaded a photo',
 		image: [img3, img4],
 	},
 	{
 		time: '30 minutes ago',
-		name: 'Lorem',
+		name: 'Fahad',
 		title: 'commented your post.',
 	},
 	{
 		time: '59 minutes ago',
-		name: 'Jessi',
+		name: 'Carlos',
 		title: 'attended a meeting with',
-		subName: 'John Doe.',
+		subName: 'Aijuka.',
 	},
 	{
 		time: '5 minutes ago',
-		name: 'John Doe',
+		name: 'Ivan',
 		title: 'Uploaded 2 new photos',
 		image: [img2, img1],
 	},
 	{
 		time: '30 minutes ago',
-		name: 'Lorem',
+		name: 'Lewin',
 		title: 'commented your post.',
 	},
 	{
 		time: '59 minutes ago',
-		name: 'Jessi',
+		name: 'Carlos',
 		title: 'attended a meeting with',
-		subName: 'John Doe.',
+		subName: 'Aijuka.',
 	},
 ]

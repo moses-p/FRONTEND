@@ -54,7 +54,7 @@ const Login = () => {
 				<VerticalForm<UserData>
 					onSubmit={login}
 					resolver={schemaResolver}
-					defaultValues={{ email: 'velonic@techzaa.com', password: 'Velonic' }}
+					defaultValues={{ email: 'mosesharuna407@gmail.com', password: 'Arise' }}
 				>
 					<FormInput
 						label="Email address"
@@ -73,7 +73,7 @@ const Login = () => {
 						placeholder="Enter your password"
 						containerClass="mb-3"
 					>
-						<Link to="/auth/forgot-password" className="text-muted float-end">
+						<Link to="/auth/forgot-password" className="text-unmuted float-end">
 							<small>Forgot your password?</small>
 						</Link>
 					</FormInput>

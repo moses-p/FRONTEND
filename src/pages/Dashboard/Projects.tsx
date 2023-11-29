@@ -35,7 +35,7 @@ const Projects = () => {
 										{project.status}
 									</span>
 								</td>
-								<td>Techzaa Studio</td>
+								<td>Arise Studio</td>
 							</tr>
 						)
 					})}

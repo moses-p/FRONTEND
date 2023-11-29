@@ -192,7 +192,7 @@ const ChatList = (props: ChatListProps) => {
 			messages.concat({
 				id: messages.length + 1,
 				userPic: profilePic,
-				userName: 'Thomson',
+				userName: 'Moses',
 				text: message,
 				postedOn: new Date().getHours() + ':' + new Date().getMinutes(),
 			})
@@ -209,7 +209,7 @@ const ChatList = (props: ChatListProps) => {
 							return (
 								<ChatItem
 									key={i}
-									placement={message.userName === 'Thomson' ? 'left' : 'right'}
+									placement={message.userName === 'Carlos' ? 'left' : 'right'}
 								>
 									{message.userPic && (
 										<ChatItemAvatar

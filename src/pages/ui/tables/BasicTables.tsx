@@ -574,7 +574,7 @@ const ActiveTable = () => {
 									)
 								})}
 								<tr>
-									<td>Risa D. Pearson</td>
+									<td>Ivan. Pearson</td>
 									<td>336-508-2157</td>
 									<td>July 24, 1950</td>
 									<td>Belgium</td>

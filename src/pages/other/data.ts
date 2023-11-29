@@ -34,15 +34,15 @@ export const contactList: ContactList[] = [
 		avatar: avatar3,
 	},
 	{
-		name: 'Mark Smith',
+		name: 'Moses Haruna',
 		avatar: avatar5,
 	},
 	{
-		name: 'John McBryde',
+		name: 'Ivan Rackara',
 		avatar: avatar8,
 	},
 	{
-		name: 'Charles Burns',
+		name: 'Carlos',
 		avatar: avatar10,
 	},
 ]
