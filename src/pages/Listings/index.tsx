@@ -1,15 +1,19 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-
+type hostel ={
+  _id: string;
+  name : string ;
+  description: string;  
+}
 const Listings = () => {
-  const [hostels, setHostels] = useState([]);
-  const [selectedHostel, setSelectedHostel] = useState(null);
+  const [hostels, setHostels] = useState<hostel[]>();
+  const [selectedHostel, setSelectedHostel] = useState<hostel>();
 
   useEffect(() => {
     const fetchHostels = async () => {
       try {
         // Replace the API endpoint with your actual endpoint
-        const response = await axios.get('https://localhost:8800/api/hostels');
+        const response = await axios.get('http://localhost:8800/api/hostels');
         setHostels(response.data); // Assuming the response is an array of hostels
       } catch (error) {
         console.error('Error fetching hostels:', error);
@@ -23,12 +27,14 @@ const Listings = () => {
     setSelectedHostel(hostel);
   };
 
+  console.log(hostels)
+
   return (
     <div>
       <h2>Hostel List</h2>
       <ul>
-        {hostels.map((hostel) => (
-          <li key={hostel.id}>
+        {hostels && hostels.map((hostel) => (
+          <li key={hostel._id}>
             <div>
               <h3>{hostel.name}</h3>
               <p>{hostel.description}</p>
