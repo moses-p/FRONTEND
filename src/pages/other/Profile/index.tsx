@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { profileActivity } from './data'
 import React from 'react'
 
+
 // images
 import bgProfile from '@/assets/images/Logo.png'
 import avatar1 from '@/assets/images/users/avatar-1.jpg'
