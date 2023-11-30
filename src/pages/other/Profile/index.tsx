@@ -33,10 +33,10 @@ const ProfilePages = () => {
 										/>
 									</div>
 									<div>
-										<h4 className="mt-4 fs-17 ellipsis">Michael A. Franklin</h4>
+										<h4 className="mt-4 fs-17 ellipsis">Moses Haruna</h4>
 										<p className="font-13"> User Experience Specialist</p>
 										<p className="text-muted mb-0">
-											<small>California, United States</small>
+											<small>Kampala, Uganda</small>
 										</p>
 									</div>
 								</Col>
