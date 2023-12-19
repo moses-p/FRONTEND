@@ -14,7 +14,7 @@ type Hostel = {
 };
 
 const Listings: React.FC = () => {
-  const [hostels, setHostels] = useState<Hostel[] | undefined>();
+  const [hostels, setHostels] = useState<Hostel[]>([]);
   const [selectedHostel, setSelectedHostel] = useState<Hostel | undefined>();
   const [newHostel, setNewHostel] = useState<Hostel>({
     _id: '',
@@ -27,6 +27,7 @@ const Listings: React.FC = () => {
     const fetchHostels = async () => {
       try {
         const response = await axios.get('http://localhost:8800/api/hostels');
+        console.log('Fetched hostels:', response.data);
         setHostels(response.data);
       } catch (error) {
         console.error('Error fetching hostels:', error);
@@ -50,9 +51,13 @@ const Listings: React.FC = () => {
 
   const handleAddHostel = async (e: FormEvent) => {
     e.preventDefault();
+    console.log('Adding new hostel:', newHostel); // Log newHostel before making the request
     try {
       const response = await axios.post('http://localhost:8800/api/hostels', newHostel);
-      setHostels((prevHostels) => [...(prevHostels || []), response.data]);
+      console.log('API Response:', response); // Log the entire API response
+      // Adjust this based on your API response structure
+      const addedHostel = response.data.hostel;
+      setHostels((prevHostels) => [...prevHostels, addedHostel]);
       setNewHostel({
         _id: '',
         name: '',
@@ -68,14 +73,13 @@ const Listings: React.FC = () => {
     <div>
       <h2>Hostel List</h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '16px' }}>
-        {hostels &&
-          hostels.map((hostel) => (
-            <div key={hostel._id} style={{ border: '1px solid #ccc', padding: '16px' }}>
-              <h3>{hostel.name}</h3>
-              <p>{hostel.description}</p>
-              <button onClick={() => handleHostelSelect(hostel)}>Select this Hostel</button>
-            </div>
-          ))}
+        {hostels.map((hostel) => (
+          <div key={hostel._id} style={{ border: '1px solid #ccc', padding: '16px' }}>
+            <h3>{hostel.name}</h3>
+            <p>{hostel.description}</p>
+            <button onClick={() => handleHostelSelect(hostel)}>Select this Hostel</button>
+          </div>
+        ))}
       </div>
 
       {selectedHostel && (
